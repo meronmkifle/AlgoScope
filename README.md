@@ -3,7 +3,7 @@
 **Free, browser-based portfolio analysis for algorithmic futures traders.**  
 Upload your NinjaTrader or Tradovate trade exports, compare strategies side-by-side, and find the optimal allocation mix — all without sending your data anywhere.
 
-<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/globe.svg" width="14" height="14" valign="middle"> **Live tool:** [https://algoscopepro.netlify.app/](https://algoscopepro.netlify.app/) *(or open `index.html` directly in any browser)*  
+<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/globe.svg" width="14" height="14" valign="middle"> **Live tool:** [https://algoscopepro.netlify.app/](https://algoscopepro.netlify.app/)  
 <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/shopping-cart.svg" width="14" height="14" valign="middle"> **Ready-made NinjaTrader strategies:** [ninjatraderalgos.com](https://ninjatraderalgos.com)
 
 ---
