@@ -3,12 +3,12 @@
 **Free, browser-based portfolio analysis for algorithmic futures traders.**  
 Upload your NinjaTrader or Tradovate trade exports, compare strategies side-by-side, and find the optimal allocation mix — all without sending your data anywhere.
 
-<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/globe.svg" width="14" height="14" valign="middle"> **Live tool:** [https://meronmkifle.github.io/Ninjtraderalgos/](https://meronmkifle.github.io/Ninjtraderalgos/) *(or open `index.html` directly in any browser)*  
+<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/globe.svg" width="14" height="14" valign="middle"> **Live tool:** [https://algoscopepro.netlify.app/](https://algoscopepro.netlify.app/) *(or open `index.html` directly in any browser)*  
 <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/shopping-cart.svg" width="14" height="14" valign="middle"> **Ready-made NinjaTrader strategies:** [ninjatraderalgos.com](https://ninjatraderalgos.com)
 
 ---
 
-![AlgoScope Overview](https://raw.githubusercontent.com/meronmkifle/Ninjtraderalgos/main/Overview%20Page.png)
+![AlgoScope Overview](https://raw.githubusercontent.com/meronmkifle/AlgoScope/main/Overview%20Page.png)
 
 ---
 
@@ -51,7 +51,7 @@ The tool auto-detects both formats. It also accepts NinjaTrader Performance Repo
 
 Every uploaded strategy gets a full performance breakdown across returns, risk, drawdown, tail risk, and positioning.
 
-![Strategy Analysis](https://raw.githubusercontent.com/meronmkifle/Ninjtraderalgos/main/Strategies%20Page.png)
+![Strategy Analysis](https://raw.githubusercontent.com/meronmkifle/AlgoScope/main/Strategies%20Page.png)
 
 - **Returns:** Total P&L, daily breakdown, win rate, average win/loss, profit factor
 - **Risk-adjusted:** Sharpe ratio, Sortino ratio, Calmar ratio
@@ -67,7 +67,7 @@ Every uploaded strategy gets a full performance breakdown across returns, risk, 
 
 The optimizer runs all 10 methods simultaneously and shows the result of each in a side-by-side comparison table. Click any row to instantly apply that allocation.
 
-![Optimiser — Methods & Allocation](https://raw.githubusercontent.com/meronmkifle/Ninjtraderalgos/main/Optimiser%20Part%201%20.png)
+![Optimiser — Methods & Allocation](https://raw.githubusercontent.com/meronmkifle/AlgoScope/main/Optimiser%20Part%201%20.png)
 
 | Method | What it finds |
 |---|---|
@@ -83,7 +83,7 @@ The optimizer runs all 10 methods simultaneously and shows the result of each in
 
 Use the interactive sliders to manually fine-tune your allocation and watch portfolio metrics update in real time.
 
-![Optimiser — Sliders & Live Metrics](https://raw.githubusercontent.com/meronmkifle/Ninjtraderalgos/main/Optimiser%20Part%202.png)
+![Optimiser — Sliders & Live Metrics](https://raw.githubusercontent.com/meronmkifle/AlgoScope/main/Optimiser%20Part%202.png)
 
 ---
 
@@ -101,7 +101,7 @@ Results: Out-of-sample Sharpe, P&L, max drawdown, split date, and a clear **Robu
 
 A scatter chart showing every possible combination of your strategies across all allocation ratios. The x-axis is risk, the y-axis is return. Your current allocation and optimal points are highlighted, so you can see at a glance whether you're near the theoretical best.
 
-![Efficient Frontier](https://raw.githubusercontent.com/meronmkifle/Ninjtraderalgos/main/Efficient%20Frontier%20Page.png)
+![Efficient Frontier](https://raw.githubusercontent.com/meronmkifle/AlgoScope/main/Efficient%20Frontier%20Page.png)
 
 ---
 
@@ -109,7 +109,7 @@ A scatter chart showing every possible combination of your strategies across all
 
 Daily correlation heatmap across all loaded strategies. Green means uncorrelated (good diversification), red means correlated (concentrated risk). Highlights the lowest-correlation pairs and flags any strategies that move too closely together.
 
-![Correlation Matrix](https://raw.githubusercontent.com/meronmkifle/Ninjtraderalgos/main/Correlation%20Page.png)
+![Correlation Matrix](https://raw.githubusercontent.com/meronmkifle/AlgoScope/main/Correlation%20Page.png)
 
 ---
 
@@ -117,7 +117,7 @@ Daily correlation heatmap across all loaded strategies. Green means uncorrelated
 
 Runs 1,000 random sequences of your historical trades to stress-test the portfolio. Shows P5, P25, P50, P75, P95 outcome bands — the realistic range of outcomes, not just the average.
 
-![Monte Carlo Simulation](https://raw.githubusercontent.com/meronmkifle/Ninjtraderalgos/main/Monte%20Carlo%20Page.png)
+![Monte Carlo Simulation](https://raw.githubusercontent.com/meronmkifle/AlgoScope/main/Monte%20Carlo%20Page.png)
 
 ---
 
@@ -125,7 +125,7 @@ Runs 1,000 random sequences of your historical trades to stress-test the portfol
 
 Deep dive into tail risk, Kelly sizing, and drawdown dynamics per strategy — including CVaR, VaR at 95%/99%, Z-score streak independence, and full Kelly / Half Kelly / Quarter Kelly position sizing.
 
-![Risk Analysis](https://raw.githubusercontent.com/meronmkifle/Ninjtraderalgos/main/Risk%20Analysis%20Page.png)
+![Risk Analysis](https://raw.githubusercontent.com/meronmkifle/AlgoScope/main/Risk%20Analysis%20Page.png)
 
 Also includes:
 - **Diversification Score** — how uncorrelated your strategies are (aim >60%)
@@ -180,4 +180,4 @@ If you find this tool helpful, consider buying me a coffee!
 ---
 
 
-*Built by [ninjatraderalgos.com](https://ninjatraderalgos.com) · [GitHub](https://github.com/meronmkifle/Ninjtraderalgos)*
+*Built by [ninjatraderalgos.com](https://ninjatraderalgos.com) · [GitHub](https://github.com/meronmkifle/AlgoScope)*
