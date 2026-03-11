@@ -3,12 +3,22 @@
 **Free, browser-based portfolio analysis for algorithmic futures traders.**  
 Upload your NinjaTrader or Tradovate trade exports, compare strategies side-by-side, and find the optimal allocation mix — all without sending your data anywhere.
 
-<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/globe.svg" width="14" height="14" valign="middle"> **Live tool:** [https://algoscopepro.netlify.app/](https://algoscopepro.netlify.app/)  
+<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/globe.svg" width="14" height="14" valign="middle"> **Live tool:** [https://algoscopepro.netlify.app/](https://algoscopepro.netlify.app/) *(or open `index.html` directly in any browser)*  
 <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/shopping-cart.svg" width="14" height="14" valign="middle"> **Ready-made NinjaTrader strategies:** [ninjatraderalgos.com](https://ninjatraderalgos.com)
 
 ---
 
 ![AlgoScope Overview](https://raw.githubusercontent.com/meronmkifle/AlgoScope/main/Overview%20Page.png)
+
+---
+
+## The Problem This Solves
+
+NinjaTrader is excellent for developing and analysing individual algorithms. You can backtest a single strategy, review its performance report, tweak parameters, and iterate. That part works well.
+
+But the moment you're running two or more algos simultaneously, which most serious automated traders eventually do, NinjaTrader gives you no native way to answer the questions that actually matter at the portfolio level: How are these strategies interacting? Are they genuinely diversified, or are they all losing on the same days? If I have $50k to allocate, how much should go behind each one? What does my combined equity curve look like, and how bad could a drawdown get across the whole portfolio?
+
+That gap is what AlgoScope was built to fill. It takes the trade exports you already have from NinjaTrader and lifts the analysis up to the portfolio level: correlations, combined drawdowns, optimal allocation, stress testing. Everything NinjaTrader's built-in reporting doesn't cover when you're running multiple strategies together.
 
 ---
 
